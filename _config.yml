@@ -11,6 +11,7 @@ baseurl:          /
 
 author:
   name:           'SidPic'
+  email:           sidpiclu@gmail.com
  # url:            https://twitter.com/mdo
 
 paginate:         5
