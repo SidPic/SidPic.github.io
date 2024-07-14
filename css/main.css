@@ -53,6 +53,11 @@ body {
     text-align: justify;
 }
 
+.main a:link,
+      a:visited {color:#455a64; text-decoration:underline;}
+.main a:hover   {color:grey; text-decoration:none;}
+.main a:active  {color:black; text-decoration:underline;}
+
 .date {
     font-size: 14px;
     color: grey;
