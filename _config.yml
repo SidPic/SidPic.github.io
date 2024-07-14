@@ -1,23 +1,2 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Setup
-title:            'SidPic'
-#tagline:          ''
-description:      'Здесь моя музыка и другие проекты, плюс всякие записки. Можно слушать музыку, заказать новую или купить готовую для коммерческого использования.'
-url:              https://sidpic.github.io
-baseurl:          /
-
-author:
-  name:           'SidPic'
-  email:           sidpiclu@gmail.com
- # url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-#github:
- # repo:           https://github.com/poole/hyde
+url: https://sidpic.github.io
+title: 'SidPic'
