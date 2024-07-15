@@ -1,4 +1,7 @@
+permalink: pretty
+relative_permalinks: true
 url: https://sidpic.github.io
+baseurl: /
 title: 'SidPic'
 excerpt_separator: <!--more--->
 paginate: 5
