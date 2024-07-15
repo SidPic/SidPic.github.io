@@ -4,3 +4,19 @@ layout: default
 
 <h1>{{ page.title }}<span class="date">{{ post.date | date_to_string }}</span></h1>
 {{ content }}
+
+<hr>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" style="text-align: left">
+      Назад
+    </a>
+  {% endif %}
+  <span style="color: grey; text-align: center">
+    стр. {{ paginator.page }} из {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" style="text-align: right">Вперёд</a>
+  {% endif %}
+</div>

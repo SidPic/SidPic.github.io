@@ -12,6 +12,12 @@ body {
     font-size: 16px;
 }
 
+a:link    {color:#455a64; text-decoration:underline;}
+a:visited {color:black; text-decoration:underline;}
+a:hover   {color:grey; text-decoration:none;}
+a:active  {color:black; text-decoration:underline;}
+
+
 .sidebar {
     flex-shrink: 0;
     flex-grow: 0;
@@ -52,11 +58,6 @@ body {
     text-indent: 3em;
     text-align: justify;
 }
-
-a:link    {color:#455a64; text-decoration:underline;}
-a:visited {color:black; text-decoration:underline;}
-a:hover   {color:grey; text-decoration:none;}
-a:active  {color:black; text-decoration:underline;}
 
 .date {
     font-size: 14px;
