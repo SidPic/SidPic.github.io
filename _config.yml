@@ -6,4 +6,4 @@ title: 'SidPic'
 excerpt_separator: <!--more--->
 paginate: 5
 plugins:
-    jekyll-paginate
+    - jekyll-paginate
