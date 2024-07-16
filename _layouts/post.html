@@ -1,22 +1,18 @@
 ---
 layout: default
-paginate: 1
 ---
 
-{% for post in paginator.posts %}
-    <h1>{{ post.title }}<span class="date">{{ post.date | date_to_string }}</span></h1>
-    {{ post.content }}
-    <hr>
-{% endfor %}
+{{ page.title }}<span class="date">{{ page.date | date_to_string }}</span></h1>
+{{ content }}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" style="text-align: left;"> Назад | </a>
-  {% endif %}
-  <span style="color: grey; text-align: center;">
+<hr>
+
+{% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">пред. {{page.previous.title}} | </a>
+{% endif %}
+<span style="color: grey">
     стр. {{ paginator.page }} из {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" style="text-align: right;"> | Вперёд</a>
-  {% endif %}
-</div>
+</span>
+{% if page.next.url %}
+    <a class="next" href="{{page.next.url}}"> | след. {{page.next.title}}  </a>
+{% endif %}
