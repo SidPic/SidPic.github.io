@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<h1>{{ page.title }}<span class="date">{{ page.date | date_to_string }}</span></h1>
+<h1>{{ page.title }}<span class="date">| {{ page.date | date_to_string }}</span></h1>
 {{ content }}
 
 <hr>
 
 <div class="pages">
 {% if page.previous.url %}
-    <a class="page" href="{{page.previous.url}}">пред. <h2>{{page.previous.title}}</h2></a>
+    <a class="page" href="{{page.previous.url}}"><span style="color: grey">пред.</span><br><span style="font-size: 1.2em">{{page.previous.title}}</span></a>
 {% endif %}
 {% if page.next.url %}
-    <a class="page" href="{{page.next.url}}">след. <h2>{{page.next.title}}</h2></a>
+    <a class="page" href="{{page.next.url}}"><span style="color: grey">след.</span><br><span style="font-size: 1.2em">{{page.next.title}}</span></a>
 {% endif %}
 </div>

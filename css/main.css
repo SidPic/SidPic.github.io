@@ -92,7 +92,7 @@ a:active  {color:black; text-decoration:underline;}
 .page {
     text-align: center;
     padding: 1em;
-    border: solid 1px grey;
+    border: 1px solid grey;
 }
 
 @media(max-width:768px) {
