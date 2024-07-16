@@ -5,4 +5,5 @@ baseurl: /
 title: 'SidPic'
 excerpt_separator: <!--more--->
 paginate: 5
-version: 2.1.0
+plugins:
+    jekyll-paginate
