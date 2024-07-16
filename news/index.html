@@ -12,12 +12,12 @@ title: Новости
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}"> Назад | </a>
+    <a class="page" href="{{ paginator.previous_page_path }}">Назад</a>
   {% endif %}
-  <span style="color: grey">
+  <span class="page">
     стр. {{ paginator.page }} из {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}"> | Вперёд</a>
+    <a class="page" href="{{ paginator.next_page_path }}">Вперёд</a>
   {% endif %}
 </div>

@@ -3,5 +3,6 @@ baseurl: /
 title: 'SidPic'
 excerpt_separator: <!--more--->
 paginate: 5
+paginate_path: "/news/page:num/"
 plugins:
     - jekyll-paginate
