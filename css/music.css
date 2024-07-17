@@ -7,8 +7,8 @@
     flex-direction: row;
 
     position: relative;
-    width: 12em;
-    height: 12em;
+    width: 16em;
+    height: 16em;
 
     padding: 0;
     margin-left: 0.8em;
@@ -16,7 +16,7 @@
 
     text-indent: 0;
     text-align: center;
-    line-height: 120%;
+    line-height: 100%;
 
     border: hidden;
     border-radius: 25px;
