@@ -1,4 +1,42 @@
 ---
 layout: page
 title: Музыка
+music:
+    - name:     "Проекция"
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Ну ооооочень очеееееень длинное название"
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Задушевно, с движением, с легкостью"
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Марш деревянных солдатиков"
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Среднее название"
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "The MathMaybeRock"
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
 ---
+<head>
+<link rel="stylesheet" type="text/css" href="/css/music.css"/>
+</head>
+
+<div class="cut">
+<p>
+    Бла-бла-бла
+</p>
+</div>
+
+<div class="music-tiles">
+{% for music in page.music %}
+    <div class="music-tile">
+        <img loading="lazy" src="{{ music.cover }}" alt="{{ music.name }}">
+        <figcaption>{{ music.name }}</figcaption>
+        <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
+    </div>
+{% endfor %}
+</div>
