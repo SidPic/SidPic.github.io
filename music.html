@@ -16,9 +16,9 @@ title: Музыка
 {% for music in site.music %}
     <div class="mobile"><hr></div>
     <div class="music-tile">
-        <img loading="lazy" src="{{ music.cover }}" alt="{{ music.name }}">
+        <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
         <div>
-        <figcaption>{{ music.name }} <a download href="{{ music.url }}">&#11015;</a> | <a target="_blank" href="{{ music.buy }}">&#129534;</a></figcaption>
+        <figcaption>{{ music.name }} <a download href="{{ music.url }}">&#11015;</a> | <a target="_blank" href="{{ music.buy }}">&#128184;</a></figcaption>
         <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
         </div>
     </div>

@@ -90,6 +90,7 @@
 }
 
 .music-tile figcaption {
+    color: black;
     text-align: left;
     padding-left: 0.5em;
     text-indent: 2em;
