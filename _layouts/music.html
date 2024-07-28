@@ -18,7 +18,7 @@ title: Музыка
 </div>
 
 <div class="content">
-<h2>Навигиция по тегам</h2>
+<h2 style="padding-top: 0; margin-top: 0;">Навигиция по тегам</h2>
 <span style="text-align: left;">
 <p>
     <strong>Тон, настроение:</strong>
@@ -58,7 +58,7 @@ title: Музыка
             <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
             <figcaption>{{ music.name }}
                 <strong>
-                    <a download="{{ music.name }}.mp3" href="{{ music.url }}">&#11015;</a>&nbsp;|&nbsp;<a target="_blank" href="{{ music.buy }}">&#9835;</a>
+                    <a href="{{ music.url }}" download="{{ music.name }}.mp3">&#11015;</a>&nbsp;|&nbsp;<a target="_blank" href="{{ music.buy }}">&#9835;</a>
                 </strong>
                 <br>
                 <span style="font-size: 0.8em; color: grey;">

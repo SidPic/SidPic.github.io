@@ -95,6 +95,16 @@
     text-indent: 0em;
 }
 
+.music-tile figcaption a {
+    color: #203540;
+    text-decoration: none;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    padding: 0.25em;
+    background: linear-gradient(to top, #5D88A6, #ADD8E6);
+    box-shadow: 0 0 10px;
+}
+
 .music-tile audio {
     width: 100%;
 }
