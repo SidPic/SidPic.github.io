@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Музыка
 ---
 
 <head>
@@ -51,12 +52,11 @@ layout: default
     {% if music.tags contains page.tag or page.tag == '#' %}
         <div class="mobile"><hr></div>
         <div class="music-tile">
-            <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
             <div>
+            <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
             <figcaption>{{ music.name }}
                 <strong>
-                    <a download="{{ music.name }}.mp3" href="{{ music.url }}">&#11015;</a>
-                |   <a target="_blank" href="{{ music.buy }}">&#9835;</a>
+                    <a download="{{ music.name }}.mp3" href="{{ music.url }}">&#11015;</a>&nbsp;|&nbsp;<a target="_blank" href="{{ music.buy }}">&#9835;</a>
                 </strong>
                 <br>
                 <span style="font-size: 0.8em; color: grey;">
@@ -65,8 +65,8 @@ layout: default
                     {% endfor %}
                 </span>
             </figcaption>
-            <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
             </div>
+            <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
         </div>
     {% endif %}
 {% endfor %}
