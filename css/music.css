@@ -84,11 +84,14 @@
 .music-tile img {
     width: 30%;
     float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0.1em;
 }
 
 .music-tile figcaption {
     text-align: left;
     margin-left: 0.5em;
+    padding-left: 0.5em;
     text-indent: 0em;
 }
 
