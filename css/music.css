@@ -91,10 +91,16 @@
 
 .music-tile figcaption {
     text-align: left;
-
+    padding-left: 0.5em;
+    text-indent: 2em;
 }
 
 .music-tile audio {
     width: 66vw;
 }
 }
+
+.music-tile a:link    {text-decoration:none;}
+.music-tile a:visited {text-decoration:underline;}
+.music-tile a:hover   {text-decoration:underline;}
+.music-tile a:active  {text-decoration:none;}

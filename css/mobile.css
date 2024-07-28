@@ -29,6 +29,8 @@
     background-color: grey;
 }
 .mobile-footer {
+    color: white;
+    background-color: #455a64;
     padding: 1em;
 }
 .mobile-footer img {

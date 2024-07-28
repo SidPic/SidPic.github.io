@@ -16,25 +16,31 @@ plugins:
 music:
     - name:     "Проекция"
       tags:
+      buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Ну ооооочень очеееееень длинное название"
       tags:
+      buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Задушевно, с движением, с легкостью"
       tags:
+      buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Марш деревянных солдатиков"
       tags:
+      buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Среднее название"
       tags:
+      buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "The MathMaybeRock"
       tags:
+      buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
