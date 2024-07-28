@@ -4,7 +4,7 @@ title: Музыка
 ---
 
 <div class="music-tiles">
-{% for music in site.music %}
+{% for music in {{ site.music | where_exp:"music","music.tags contains 'легкая'" }} %}
     <div class="mobile"><hr></div>
     <div class="music-tile">
         <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">

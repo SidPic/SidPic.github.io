@@ -8,39 +8,39 @@ plugins:
     - jekyll-paginate
 
 # муз. теги
-# ["весёлая", "грустная", "лирическая", "меланхоличная", "мистическая", "загадочная", "сказочная",
-# "тревожная", "спокойная", "воодушевляющая", "светлая", "мрачная", "торжественная", "мечтательная"
-# "комичная", "шпионская", "восторженная", "тяжелая", "легкая", "задорная", "игривая", "интересная",
-# "джаз-производные", "трагическая", ]
+#   депрессивная печальная светлая жизнерадостная
+#   легкая умеренная напряженная агрессивная
+#   простая сказочная мистическая вычурная
+#   интимная мечтательная чувственная пафосная
 
 music:
     - name:     "Проекция"
-      tags:
+      tags:     ["светлая", "умеренная", "простая", "чувственная"]
       buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Ну ооооочень очеееееень длинное название"
-      tags:
+      tags:     ["жизнерадостная", "мечтательная", "сказочная", "легкая"]
       buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Задушевно, с движением, с легкостью"
-      tags:
+      tags:     ["депрессивная", "напряженная", "мистическая", итнимная]
       buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Марш деревянных солдатиков"
-      tags:
+      tags:     ["простая", "светлая"]
       buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "Среднее название"
-      tags:
+      tags:     ["агрессивная", "вычурная", "печальная", пафосная]
       buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
     - name:     "The MathMaybeRock"
-      tags:
+      tags:     ["вычурная"]
       buy:      https://musicat.store/catalog/proektsiia
       url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
       cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS

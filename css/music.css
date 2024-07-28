@@ -97,10 +97,10 @@
 }
 }
 
-.music-tile a:link    {text-decoration:none;}
-.music-tile a:visited {text-decoration:underline;}
-.music-tile a:hover   {text-decoration:underline;}
-.music-tile a:active  {text-decoration:none;}
+.music-tile a:link    {color: black; opacity: 1; text-decoration:none;}
+.music-tile a:visited {color: black; opacity: 1; text-decoration:underline;}
+.music-tile a:hover   {color: black; opacity: 1; text-decoration:underline;}
+.music-tile a:active  {color: black; opacity: 1; text-decoration:none;}
 
 .music-tile figcaption {
     color: black;
