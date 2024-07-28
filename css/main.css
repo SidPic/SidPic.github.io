@@ -118,3 +118,18 @@ a:active  {color:black; text-decoration:underline;}
         padding-right: 0;
     }
 }
+
+.mobile {
+}
+.desktop {
+}
+@media(min-width:769px) {
+    .mobile {
+        display: none;
+    }
+}
+@media(max-width:768px) {
+    .desktop {
+        display: none;
+    }
+}

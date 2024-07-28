@@ -6,3 +6,35 @@ paginate: 5
 paginate_path: "/news/page:num/"
 plugins:
     - jekyll-paginate
+
+# муз. теги
+# ["весёлая", "грустная", "лирическая", "меланхоличная", "мистическая", "загадочная", "сказочная",
+# "тревожная", "спокойная", "воодушевляющая", "светлая", "мрачная", "торжественная", "мечтательная"
+# "комичная", "шпионская", "восторженная", "тяжелая", "легкая", "задорная", "игривая", "интересная",
+# "джаз-производные", "трагическая", ]
+
+music:
+    - name:     "Проекция"
+      tags:
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Ну ооооочень очеееееень длинное название"
+      tags:
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Задушевно, с движением, с легкостью"
+      tags:
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Марш деревянных солдатиков"
+      tags:
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "Среднее название"
+      tags:
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+    - name:     "The MathMaybeRock"
+      tags:
+      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
+      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS

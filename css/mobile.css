@@ -1,0 +1,37 @@
+.mobile {
+    padding: 0em;
+}
+.mobile > details {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #455a64;
+}
+.mobile > details > summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    color: white;
+    border-bottom: 1px white solid;
+    list-style: none;
+}
+.mobile > details > summary > a {
+    color: #203540;
+    text-decoration: none;
+    margin: 0.25em;
+    padding: 0.5em;
+    background: linear-gradient(to top, #5D88A6, #ADD8E6);
+    box-shadow: 0 0 10px;
+}
+.mobile > details > summary > a:active {
+    background-color: grey;
+}
+.mobile-footer {
+    padding: 1em;
+}
+.mobile-footer img {
+    height: 32px;
+    margin-top: 0.5em;
+}

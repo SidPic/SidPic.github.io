@@ -1,3 +1,4 @@
+@media(min-width:769px) {
 .music-tiles {
     display: flex;
     flex-wrap: wrap;
@@ -67,4 +68,31 @@
     border: hidden;
     border-radius: 25px;
     opacity: 0.5;
+}
+}
+
+@media(max-width:768px) {
+.music-tiles {
+    padding: 0.25em;
+}
+
+.music-tile {
+    display: flex;
+    margin: 0.2em;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.music-tile img {
+    width: 30%;
+    float: left;
+}
+
+.music-tile figcaption {
+
+}
+
+.music-tile audio {
+    width: 66vw;
+}
 }
