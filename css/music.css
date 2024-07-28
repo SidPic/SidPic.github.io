@@ -79,7 +79,7 @@
 .music-tile {
     display: flex;
     margin: 0.2em;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
 }
 

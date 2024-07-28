@@ -14,10 +14,13 @@ title: Музыка
 
 <div class="music-tiles">
 {% for music in site.music %}
+    <div class="mobile"><hr></div>
     <div class="music-tile">
         <img loading="lazy" src="{{ music.cover }}" alt="{{ music.name }}">
+        <div>
         <figcaption>{{ music.name }}</figcaption>
         <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
+        </div>
     </div>
 {% endfor %}
 </div>
