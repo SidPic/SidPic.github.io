@@ -74,6 +74,7 @@
 @media(max-width:768px) {
 .music-tiles {
     padding: 0.25em;
+    padding-left: 0;
 }
 
 .music-tile {
@@ -89,6 +90,7 @@
 }
 
 .music-tile figcaption {
+    text-align: left;
 
 }
 
