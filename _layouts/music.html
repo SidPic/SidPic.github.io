@@ -6,11 +6,11 @@ layout: default
 <link rel="stylesheet" type="text/css" href="/css/music.css"/>
 </head>
 
-<h1>{{ page.tag }} музыка</h1>
+<h1>{{ page.tag | capitalize }} музыка</h1>
 
 <div class="cut">
 <p>
-    Здесь можно послушать или скачать (&#11015;) музыку, приобрести лицензию (&#128184;).
+    Здесь можно послушать или скачать (&#11015;) музыку, приобрести лицензию (&#9835;).
     Лицензии расположены на другом сайте, где музыка проходит модерацию, что занимает некоторое время,
     потому, если ссылка на лицензию пока не работает, пишите на почту <a href="mailto:sidpiclu@gmail.com">sidpiclu@gmail.com</a>.
 </p>
@@ -53,12 +53,17 @@ layout: default
         <div class="music-tile">
             <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
             <div>
-            <figcaption>{{ music.name }} <strong><a download href="{{ music.url }}">&#11015;</a> | <a target="_blank" href="{{ music.buy }}">&#128184;</a></strong><br>
-            <span style="font-size: 0.8em; color: grey;">
-            {% for tag in music.tags %}
-                #{{ tag }}
-            {% endfor %}
-            </span>
+            <figcaption>{{ music.name }}
+                <strong>
+                    <a download="{{ music.name }}.mp3" href="{{ music.url }}">&#11015;</a>
+                |   <a target="_blank" href="{{ music.buy }}">&#9835;</a>
+                </strong>
+                <br>
+                <span style="font-size: 0.8em; color: grey;">
+                    {% for tag in music.tags %}
+                        #{{ tag }}
+                    {% endfor %}
+                </span>
             </figcaption>
             <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
             </div>
