@@ -1,10 +1,11 @@
 ---
 layout: music
-title: Музыка #простая
+title: "Музыка #простая"
 ---
 
 <div class="music-tiles">
-{% for music in {{ site.music | where_exp:"music","music.tags contains 'простая'" }} %}
+{% for music in site.music %}
+    {% if music.tags contains 'простая' %}
     <div class="mobile"><hr></div>
     <div class="music-tile">
         <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
@@ -13,5 +14,6 @@ title: Музыка #простая
         <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
         </div>
     </div>
+    {% endif %}
 {% endfor %}
 </div>

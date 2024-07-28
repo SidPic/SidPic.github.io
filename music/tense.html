@@ -1,10 +1,12 @@
 ---
 layout: music
-title: Музыка #напряженная
+title: "Музыка #напряженная"
 ---
 
 <div class="music-tiles">
-{% for music in {{ site.music | where_exp:"music","music.tags contains 'напряженная'" }} %}
-    {% include music-tile.html %}
+{% for music in site.music %}
+    {% if music.tags contains 'напряженная' %}
+        {% include music-tile.html %}
+    {% endif %}
 {% endfor %}
 </div>
