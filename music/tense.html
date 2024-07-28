@@ -1,17 +1,10 @@
 ---
-layout: page
-title: Музыка
+layout: music
+title: Музыка #напряженная
 ---
 
 <div class="music-tiles">
 {% for music in {{ site.music | where_exp:"music","music.tags contains 'напряженная'" }} %}
-    <div class="mobile"><hr></div>
-    <div class="music-tile">
-        <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
-        <div>
-        <figcaption>{{ music.name }} <strong><a download href="{{ music.url }}">&#11015;</a> | <a target="_blank" href="{{ music.buy }}">&#128184;</a></strong></figcaption>
-        <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
-        </div>
-    </div>
+    {% include music-tile.html %}
 {% endfor %}
 </div>
