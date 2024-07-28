@@ -88,12 +88,12 @@
 
 .music-tile figcaption {
     text-align: left;
-    padding-left: 0.5em;
+    margin-left: 0.5em;
     text-indent: 0em;
 }
 
 .music-tile audio {
-    width: 100vw;
+    width: 100%;
 }
 }
 
