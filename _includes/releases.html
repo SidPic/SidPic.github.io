@@ -1,0 +1,26 @@
+<head>
+<link rel="stylesheet" type="text/css" href="/css/music.css"/>
+</head>
+
+<div class="music-tiles">
+{% for music in site.music | where_exp:"item","releases contains item.name" %}
+    <div class="mobile"><hr></div>
+    <div class="music-tile">
+        <div>
+        <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
+        <figcaption>{{ music.name }}
+            <strong>
+                <a href="{{ music.url }}" download="{{ music.name }}.mp3">&#11015;</a>&nbsp;|&nbsp;<a target="_blank" href="{{ music.buy }}">&#9835;</a>
+            </strong>
+            <br>
+            <span style="font-size: 0.8em; color: grey;">
+                {% for tag in music.tags %}
+                    #{{ tag }}
+                {% endfor %}
+            </span>
+        </figcaption>
+        </div>
+        <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
+    </div>
+{% endfor %}
+</div>
