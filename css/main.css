@@ -85,8 +85,8 @@ a:active  {color:black; text-decoration:underline;}
     padding-right: 5em;
 }
 
-ol {
-    text-indent: 1em;
+li {
+    padding: 0;
 }
 
 .pages {

@@ -17,30 +17,15 @@ music:
     - name:     "Проекция"
       tags:     ["светлая", "умеренная", "простая", "чувственная"]
       buy:      https://musicat.store/catalog/proektsiia
-      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
-      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
-    - name:     "Ну ооооочень очеееееень длинное название"
-      tags:     ["жизнерадостная", "мечтательная", "сказочная", "легкая"]
-      buy:      https://musicat.store/catalog/proektsiia
-      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
-      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
-    - name:     "Задушевно, с движением, с легкостью"
-      tags:     ["депрессивная", "напряженная", "мистическая", итнимная]
-      buy:      https://musicat.store/catalog/proektsiia
-      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
-      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
-    - name:     "Марш деревянных солдатиков"
-      tags:     ["простая", "светлая"]
-      buy:      https://musicat.store/catalog/proektsiia
-      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
-      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
-    - name:     "Среднее название"
-      tags:     ["агрессивная", "вычурная", "печальная", пафосная]
-      buy:      https://musicat.store/catalog/proektsiia
-      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
-      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
-    - name:     "The MathMaybeRock"
-      tags:     ["вычурная"]
-      buy:      https://musicat.store/catalog/proektsiia
-      url:      https://download.sberdisk.ru/download/file/508746694?token=SbNc13zXjp5I2LL
-      cover:    https://apigw.sberdisk.ru/share/poster/508758966?token=9h3nPzN42RGLizS
+      url:      "https://download.sberdisk.ru/download/file/516421865?token=DoVxWVQ36LjWVsw&filename=Проекция.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/516091950?token=yCQsibSd5bmhEBI&filename=Проекция.webp"
+    - name:     "D"
+      tags:     ["напряженная", "мистическая"]
+      buy:      https://musicat.store/authors/limensid
+      url:      "https://download.sberdisk.ru/download/file/516421863?token=xwL6hsyNwcO1iUU&filename=D.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/516421937?token=fsfxmccRPNeZo2r&filename=D.webp"
+    - name:     "А"
+      tags:     ["светлая", "напряженная", "простая", "интимная"]
+      buy:      https://musicat.store/authors/limensid
+      url:      "https://download.sberdisk.ru/download/file/516421864?token=TkhimsACJ67qxpG&filename=А.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/516421938?token=QoVd0v5ossli1xI&filename=A.webp"
