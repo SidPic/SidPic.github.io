@@ -18,7 +18,7 @@ title: Главная
 
 {% for post in site.posts limit: 5 %}
     <hr>
-    <a href="{{ post.url }}"><h1>{{ post.title }}</a> <span class="date">| {{ post.date | date_to_string }}</span></h1>
+    <a href="{{ post.url }}"><h1>{{ post.title }}</a><span class="date"> | {{ post.date | date_to_string }}</span></h1>
     {{ post.excerpt }}
     <hr>
 {% endfor %}

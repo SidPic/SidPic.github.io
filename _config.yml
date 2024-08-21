@@ -7,6 +7,16 @@ paginate_path: "/news/page:num/"
 plugins:
     - jekyll-paginate
 
+socials:
+    - name:     "VK"
+      url:      "https://vk.com/spicmusic"
+      icon:     "/icons/vk.png"
+
+#~ streamings:
+    #~ - name:
+      #~ url:
+      #~ icon:
+
 # муз. теги
 #   депрессивная печальная светлая жизнерадостная
 #   легкая умеренная напряженная агрессивная
