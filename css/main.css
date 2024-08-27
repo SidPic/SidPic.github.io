@@ -69,13 +69,12 @@ a:active  {color:black; text-decoration:underline;}
 }
 
 .cut {
-    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
 
 .cut p {
-    width: 70%;
+    width: auto;
     padding: 1em;
 }
 
@@ -89,7 +88,7 @@ a:active  {color:black; text-decoration:underline;}
     padding: 0;
     margin: 0;
     width: 16em;
-    height: 16em;
+    height: auto;
 }
 
 .content p {
