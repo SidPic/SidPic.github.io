@@ -3,7 +3,8 @@
 </head>
 
 <div class="music-tiles">
-{% for music in site.music | where_exp:"item","page.releases contains item.name" %}
+{% for music in site.music %}
+{% if page.releases contains music.name %}
     <div class="mobile"><hr></div>
     <div class="music-tile">
         <div>
@@ -22,5 +23,6 @@
         </div>
         <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
     </div>
+{% endif %}
 {% endfor %}
 </div>
