@@ -84,6 +84,11 @@ a:active  {color:black; text-decoration:underline;}
     object-fit: contain;
 }
 
+.cut-img {
+    width: 30%;
+    height: auto;
+}
+
 .content p {
     padding-left: 1em;
     padding-right: 5em;
@@ -116,6 +121,12 @@ li {
     .cut img {
         display: box;
         width: 70%;
+        order: -1;
+        margin: 0 auto 0;
+    }
+    .cut-img {
+        display: box;
+        width: 100%;
         order: -1;
         margin: 0 auto 0;
     }
