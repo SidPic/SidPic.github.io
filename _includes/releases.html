@@ -3,7 +3,7 @@
 </head>
 
 <div class="music-tiles">
-{% for music in site.music | where_exp:"item","releases contains item.name" %}
+{% for music in site.music | where_exp:"item","page.releases contains item.name" %}
     <div class="mobile"><hr></div>
     <div class="music-tile">
         <div>
