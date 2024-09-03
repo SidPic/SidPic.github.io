@@ -89,6 +89,7 @@ a:active  {color:black; text-decoration:underline;}
     margin: 0;
     width: 16em;
     height: 16em;
+    object-fit: contain;
     flex: none;
 }
 

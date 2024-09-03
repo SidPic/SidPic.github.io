@@ -24,9 +24,14 @@ socials:
 #   интимная мечтательная чувственная пафосная
 
 music:
+    - name:     "Данко I"
+      tags:     ["жизнерадостная", "напряженная", "легкая", "агрессивная", "сказочная"]
+      buy:      https://musicat.store/authors/limensid
+      url:      "https://download.sberdisk.ru/download/file/519824472?token=QQklkbD79BnXqGG&filename=Данко%20I%20(2).mp3"
+      cover:    "https://download.sberdisk.ru/download/file/519823693?token=8rIuJ4YD5HBZiJ5&filename=Данко%20I.webp"
     - name:     "Марш деревянных солдатиков"
       tags:     ["светлая", "печальная", "умеренная", "сказочная", "мечтательная"]
-      buy:      https://musicat.store/authors/limensid
+      buy:      https://musicat.store/catalog/marsh-dereviannykh-soldatikov
       url:      "https://download.sberdisk.ru/download/file/518069708?token=4qt4mZ2G7Gqba2x&filename=Марш%20деревянных%20солдатиков%20(2).mp3"
       cover:    "https://download.sberdisk.ru/download/file/518069793?token=dpOhVrlOG6nb6kP&filename=Марш%20деревянных%20солдатиков.webp"
     - name:     "Проекция"
