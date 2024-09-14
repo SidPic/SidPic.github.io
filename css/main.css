@@ -132,7 +132,9 @@ li {
         display: box;
         width: 100%;
         order: -1;
-        margin: 0 auto 0;
+        margin: 0;
+        flex: none;
+        height: auto;
     }
     .cut p {
         width: auto;

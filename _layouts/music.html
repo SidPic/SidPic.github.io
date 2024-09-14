@@ -45,6 +45,7 @@ title: Музыка
         <a href="/music/sensual.html">#чувственная</a>
         <a href="/music/pathos.html">#пафосная</a>
     <br>
+    <a href="/music.html">#вся</a>
 </p>
 </span>
 </div>
@@ -68,7 +69,7 @@ title: Музыка
                 </span>
             </figcaption>
             </div>
-            <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
+            <audio controls controlslist="nodownload" preload="none" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
         </div>
     {% endif %}
 {% endfor %}
