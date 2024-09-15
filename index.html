@@ -17,7 +17,7 @@ title: Главная
 </div>
 
 {% for post in site.posts limit: 5 %}
-    <div style="border: 1px #46C2A0 solid;">
+    <div style="border-bottom: 1px #46C2A0 solid;">
     <a href="{{ post.url }}"><h1>{{ post.title }}</a><span class="date"> | {{ post.date | date_to_string }}</span></h1>
     {{ post.excerpt }}
     </div>
