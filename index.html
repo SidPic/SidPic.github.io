@@ -17,10 +17,10 @@ title: Главная
 </div>
 
 {% for post in site.posts limit: 5 %}
-    <hr>
+    <div style="border: 1px #46C2A0 solid;">
     <a href="{{ post.url }}"><h1>{{ post.title }}</a><span class="date"> | {{ post.date | date_to_string }}</span></h1>
     {{ post.excerpt }}
-    <hr>
+    </div>
 {% endfor %}
 
 <a href="/news/index.html">... читать все новости ...</a>
