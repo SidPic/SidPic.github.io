@@ -30,25 +30,29 @@ music:
     - name:     "Данко I"
       tags:     ["жизнерадостная", "напряженная", "легкая", "агрессивная", "сказочная"]
       buy:      https://musicat.store/authors/limensid
-      url:      "https://download.sberdisk.ru/download/file/519824472?token=QQklkbD79BnXqGG&filename=Данко%20I%20(2).mp3"
+      url:      "https://t4.bcbits.com/stream/1b6009e9ca05db72f47a2afd5207c4d0/mp3-128/2150997095?p=0&ts=1726567757&t=7d44ed2e3d48aa41092aec9cfbef49abb7367580&token=1726567757_0ad1e3763dd31255248feda0208da29509a929e4"
       cover:    "https://download.sberdisk.ru/download/file/519823693?token=8rIuJ4YD5HBZiJ5&filename=Данко%20I.webp"
+
     - name:     "Марш деревянных солдатиков"
       tags:     ["светлая", "печальная", "умеренная", "сказочная", "мечтательная"]
       buy:      https://musicat.store/catalog/marsh-dereviannykh-soldatikov
-      url:      "https://download.sberdisk.ru/download/file/518069708?token=4qt4mZ2G7Gqba2x&filename=Марш%20деревянных%20солдатиков%20(2).mp3"
+      url:      "https://t4.bcbits.com/stream/c759994cf487e6d73d78ad6f2583cd76/mp3-128/1756819209?p=0&ts=1726567757&t=af9320f942f81b0210843606d792a99bf7f5a8d9&token=1726567757_acfef526d92c86996caa37210574f9a4e09daafb"
       cover:    "https://download.sberdisk.ru/download/file/518069793?token=dpOhVrlOG6nb6kP&filename=Марш%20деревянных%20солдатиков.webp"
+
     - name:     "Проекция"
       tags:     ["светлая", "умеренная", "простая", "чувственная"]
       buy:      https://musicat.store/catalog/proektsiia
-      url:      "https://download.sberdisk.ru/download/file/516421865?token=DoVxWVQ36LjWVsw&filename=Проекция.mp3"
+      url:      "https://t4.bcbits.com/stream/18c2a2264d4789a7a9a22e50237cf2ee/mp3-128/349605822?p=0&ts=1726567757&t=25863405944701a8c15afc9e54f8e099ca88d02b&token=1726567757_652ce70653dd35171370b7881cd9a2b085827d45"
       cover:    "https://download.sberdisk.ru/download/file/516091950?token=yCQsibSd5bmhEBI&filename=Проекция.webp"
+
     - name:     "D"
       tags:     ["напряженная", "мистическая"]
       buy:      https://musicat.store/catalog/d
-      url:      "https://download.sberdisk.ru/download/file/516421863?token=xwL6hsyNwcO1iUU&filename=D.mp3"
+      url:      "https://t4.bcbits.com/stream/f309490064de02390edd608f8a52a012/mp3-128/2718242498?p=0&ts=1726567757&t=9fd09bf24d8f5ffa70487bc3882e6c8ec54da333&token=1726567757_1c7a54a84951f853e7c71496ff1edb2189664b9c"
       cover:    "https://download.sberdisk.ru/download/file/516421937?token=fsfxmccRPNeZo2r&filename=D.webp"
+
     - name:     "А"
       tags:     ["светлая", "напряженная", "простая", "интимная"]
       buy:      https://musicat.store/catalog/a
-      url:      "https://download.sberdisk.ru/download/file/516421864?token=TkhimsACJ67qxpG&filename=А.mp3"
+      url:      "https://t4.bcbits.com/stream/c9f233fbae83e5d583028a721d30d679/mp3-128/1466684712?p=0&ts=1726567757&t=b93ab6f2c56937104cb88a22c0662f7716d91f70&token=1726567757_f774681083462e9f43c12c51360ff65f5529691c"
       cover:    "https://download.sberdisk.ru/download/file/516421938?token=QoVd0v5ossli1xI&filename=A.webp"

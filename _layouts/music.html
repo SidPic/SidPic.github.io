@@ -11,7 +11,7 @@ title: Музыка
 
 <div class="cut">
 <p>
-    Здесь можно послушать или скачать (&#11015;) музыку, приобрести лицензию (&#9835;).
+    Здесь можно послушать или скачать (&#11015;, в mp3) музыку, приобрести лицензию (&#9835;).
     Лицензии расположены на другом сайте, где музыка проходит модерацию, что занимает некоторое время,
     потому, если ссылка на лицензию пока не работает, пишите на почту <a href="mailto:sidpiclu@gmail.com">sidpiclu@gmail.com</a>.
 </p>
@@ -69,7 +69,7 @@ title: Музыка
                 </span>
             </figcaption>
             </div>
-            <audio controls controlslist="nodownload" preload="none" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
+            <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
         </div>
     {% endif %}
 {% endfor %}
