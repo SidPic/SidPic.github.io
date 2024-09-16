@@ -23,7 +23,7 @@
             </span>
         </figcaption>
         </div>
-        <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}">{{ music.url }}</audio>
+        <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}"><a href="{{ music.url }}" download="{{ music.name }}.mp3">{{ music.name }}</a></audio>
     </div>
 {% endif %}
 {% endfor %}

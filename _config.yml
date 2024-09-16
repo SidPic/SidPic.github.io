@@ -27,6 +27,12 @@ socials:
 #   интимная мечтательная чувственная пафосная
 
 music:
+    - name:     "Танец"
+      tags:     ["легкая", "светлая", "простая", "мечтательная"]
+      buy:      https://musicat.store/authors/limensid
+      url:      "https://t4.bcbits.com/stream/5fec7bff250b27329f7d2eb429221763/mp3-128/3272085086?p=0&ts=1726572170&t=3b15883d35a5484fc170a6f93484a71fef308f30&token=1726572170_c92e40b80ed86f443e82fd2c0b79e63ad39a15c2"
+      cover:    "https://download.sberdisk.ru/download/file/523183954?token=M4bwPwscqz2oxD8&filename=Танец.webp"
+
     - name:     "Данко I"
       tags:     ["жизнерадостная", "напряженная", "легкая", "агрессивная", "сказочная"]
       buy:      https://musicat.store/authors/limensid

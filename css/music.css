@@ -36,6 +36,8 @@
 
     border: hidden;
     border-radius: 25px;
+
+    flex: none;
 }
 
 .music-tile figcaption {
