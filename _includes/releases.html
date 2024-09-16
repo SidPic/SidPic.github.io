@@ -5,7 +5,9 @@
 <div class="music-tiles">
 {% for music in site.music %}
 {% if page.releases contains music.name %}
+<!--
     <div class="mobile"><hr></div>
+-->
     <div class="music-tile">
         <div>
         <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">

@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
 h1, h2, h3, h4, h5, h6 {
     line-height: 110%;
 }
@@ -79,6 +84,7 @@ a:active  {color:black; text-decoration:underline;}
 }
 
 .cut p {
+    margin: 0;
     width: 70%;
     padding: 1em;
 }
@@ -114,6 +120,10 @@ li {
 
 .page {
     text-align: center;
+}
+
+.separator {
+    border-bottom: 2px #46C2A0 solid;
 }
 
 @media(max-width:768px) {
