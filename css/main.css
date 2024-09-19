@@ -125,6 +125,7 @@ li {
 }
 
 #warning {
+    color: black;
     background-color: #ffffa5;
     font-style: italic;
     border: dashed 2px grey;
