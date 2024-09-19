@@ -124,6 +124,12 @@ li {
     padding: 0;
 }
 
+#warning {
+    background-color: #ffffa5;
+    font-style: italic;
+    border: dashed 2px grey;
+}
+
 @media(max-width:768px) {
     body {
         width: 100vw;

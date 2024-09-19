@@ -10,7 +10,9 @@
 -->
     <div class="music-tile">
         <div>
+<!--
         <img loading="lazy" decoding="async" src="{{ music.cover }}" alt="{{ music.name }}">
+-->
         <figcaption>{{ music.name }}
             <strong>
                 <a href="{{ music.url }}" download="{{ music.name }}.mp3">&#11015;</a>&nbsp;|&nbsp;<a target="_blank" href="{{ music.buy }}">&#9835;</a>
@@ -23,7 +25,14 @@
             </span>
         </figcaption>
         </div>
+         <!-- аудиоплеер --->
+        <iframe class="music-tile img" style="padding:0; margin:0;"
+        seamless loading="lazy" src="{{ music.player }}">
+            <a href="{{ music.url }" download="{{ music.name }}.mp3">{{ music.name }}</a>
+        </iframe>
+<!--
         <audio controls controlslist="nodownload" preload="metadata" type="audio/mpeg" src="{{ music.url }}"><a href="{{ music.url }}" download="{{ music.name }}.mp3">{{ music.name }}</a></audio>
+-->
     </div>
 {% endif %}
 {% endfor %}

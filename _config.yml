@@ -1,6 +1,7 @@
 url: https://sidpic.github.io
 baseurl: /
 title: 'SidPic'
+locale: 'ru_RU'
 excerpt_separator: <!--more--->
 paginate: 5
 paginate_path: "/news/page:num/"
@@ -36,33 +37,39 @@ music:
       buy:      https://musicat.store/authors/limensid
       url:      "https://downloader.disk.yandex.ru/disk/1e035b9e9201d8849010791dc901a3e2652fa8fa46fd9a35a26666c850f4c106/66eb090a/aj1FhYyDHrJilfbT_On5b-nLfBmvq3rAIZJq_cXoXB8KsM8K9wFVY5tgWt6wxMQ7g-88tq2UFjdJBVHDzbswjA%3D%3D?uid=0&filename=Танец.mp3&disposition=attachment&hash=EhYVO8n7Ab7KoaY2Z2kdRndpoh0bXNzlr4qkl3mYBdxPVIVrayEqalahqlRySe4dq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=audio%2Fmpeg&owner_uid=1905780339&fsize=2500621&hid=2367aae5b7c64b3ef0001a1877f1490d&media_type=audio&tknv=v2"
       cover:    "https://downloader.disk.yandex.ru/disk/cd7213185e292bc5ef07af51dea4316e909e5850232b26278611d1fa8cd80ee0/66eb092b/aj1FhYyDHrJilfbT_On5b8CS9f16Y94YecH2fvlIanMVBJX1j3dZSQPAXynoT5jd477lzzqooF3bubNcwK0zZg%3D%3D?uid=0&filename=Танец.webp&disposition=attachment&hash=igJ1XHwcW5Y3AhhIwXe3MVtfiCn%2BPO6oAMlp5pRqivzdU/QGSIk7h4PaBQD2MgcJq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=image%2Fwebp&owner_uid=1905780339&fsize=9424&hid=e91f10ee588e6d88d96a8f7edf69f491&media_type=image&tknv=v2"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=3272085086/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:     "Данко I"
       tags:     ["жизнерадостная", "напряженная", "легкая", "агрессивная", "сказочная"]
       buy:      https://musicat.store/authors/limensid
       url:      "https://downloader.disk.yandex.ru/disk/f38dbc82d15f4f253536f6176da1376bf5905b95f5d8a03bac4a325d5c49505b/66eb08aa/aj1FhYyDHrJilfbT_On5b-FIuvot2_y8fGFSHovtViycolzoppBAe04NU5dAT6lcWtTSvPYdbJDUeufBKpDzHw%3D%3D?uid=0&filename=Данко%20I.mp3&disposition=attachment&hash=BWwizdZbCy9jFVJlMeXUKDayD07j8XstuFbWGgPw4kC6IRYXDUhDYF4PIQ%2BwgjRTq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=audio%2Fmpeg&owner_uid=1905780339&fsize=3161062&hid=efff24aae0aa1ee21b2f10a03b97272f&media_type=audio&tknv=v2"
       cover:    "https://download.sberdisk.ru/download/file/519823693?token=8rIuJ4YD5HBZiJ5&filename=Данко%20I.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=2150997095/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true"
 
     - name:     "Марш деревянных солдатиков"
       tags:     ["светлая", "печальная", "умеренная", "сказочная", "мечтательная"]
       buy:      https://musicat.store/catalog/marsh-dereviannykh-soldatikov
       url:      "https://download.sberdisk.ru/download/file/518069708?token=4qt4mZ2G7Gqba2x&filename=Марш%20деревянных%20солдатиков.mp3"
       cover:    "https://download.sberdisk.ru/download/file/518069793?token=dpOhVrlOG6nb6kP&filename=Марш%20деревянных%20солдатиков.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=1756819209/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:     "Проекция"
       tags:     ["светлая", "умеренная", "простая", "чувственная"]
       buy:      https://musicat.store/catalog/proektsiia
       url:      "https://download.sberdisk.ru/download/file/516421865?token=DoVxWVQ36LjWVsw&filename=Проекция.mp3"
       cover:    "https://download.sberdisk.ru/download/file/516091950?token=yCQsibSd5bmhEBI&filename=Проекция.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=349605822/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:     "D"
       tags:     ["напряженная", "мистическая"]
       buy:      https://musicat.store/catalog/d
       url:      "https://download.sberdisk.ru/download/file/516421863?token=xwL6hsyNwcO1iUU&filename=D.mp3"
       cover:    "https://download.sberdisk.ru/download/file/516421937?token=fsfxmccRPNeZo2r&filename=D.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=2718242498/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:     "А"
       tags:     ["светлая", "напряженная", "простая", "интимная"]
       buy:      https://musicat.store/catalog/a
       url:      "https://download.sberdisk.ru/download/file/516421864?token=TkhimsACJ67qxpG&filename=А.mp3"
       cover:    "https://download.sberdisk.ru/download/file/516421938?token=QoVd0v5ossli1xI&filename=A.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=1466684712/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
