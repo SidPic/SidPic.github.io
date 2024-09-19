@@ -88,13 +88,15 @@
     margin-top: 0.5em;
 }
 .music-tile figcaption a {
+    display: inline-block;
     color: #203540;
     text-decoration: none;
     margin-left: 0.1em;
     margin-right: 0.1em;
-    padding: 0.25em;
-    padding-top: 0.1em;
-    padding-bottom:0.1em;
+    padding: 0.1em;
+    padding-top: 0;
+    padding-bottom:0;
+    height: 1em;
     background: linear-gradient(to top, #5D88A6, #ADD8E6);
 }
 /*
