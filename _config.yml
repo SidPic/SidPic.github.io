@@ -32,6 +32,13 @@ socials:
 #   интимная мечтательная чувственная пафосная
 
 music:
+    - name:     "Моя любимая погода"
+      tags:     ["светлая", "напряженная", "вычурная", "чувственная"]
+      buy:      https://musicat.store/authors/limensid
+      url:      "https://download.sberdisk.ru/download/file/525714767?token=WesYkZsD92ne39s&filename=Моя%20любимая%20погода.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/525714226?token=NO1XqeZnN4JDIrp&filename=Моя_любимая_погода.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=3712946583/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
+
     - name:     "Танец"
       tags:     ["легкая", "светлая", "простая", "мечтательная"]
       buy:      https://musicat.store/authors/limensid
