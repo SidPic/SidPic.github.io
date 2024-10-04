@@ -32,6 +32,13 @@ socials:
 #   интимная мечтательная чувственная пафосная
 
 music:
+    - name:     "Башкирская элегия"
+      tags:     ["печальная", "светлая", "умеренная", "простая", "мечтательная"]
+      buy:      "https://musicat.store/authors/limensid"
+      url:      "https://downloader.disk.yandex.ru/disk/e40cf83906c09c5b2468d4d6c1a05041e4025244a3e7619300adb1475f543067/67000c3e/aj1FhYyDHrJilfbT_On5b1jparoX97YknRktxlytsUhxA-galwx8YEJ624U0sLy_rNZMRiuVW3986mNQlP6m-Q%3D%3D?uid=0&filename=Башкирская%20элегия.mp3&disposition=attachment&hash=YkUCfb35l%2Bmw3tIv%2Blf8Ys%2B7plJd1dUBRnmYmWs1ppxHtKuzvKFa/oFTCLQdDt1Uq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=audio%2Fmpeg&owner_uid=1905780339&fsize=4037828&hid=06768822ac685308ea8afc25a385f8e4&media_type=audio&tknv=v2"
+      cover:    "https://downloader.disk.yandex.ru/disk/89e640f5704bed04d124fd53136ebc72ee7932625b068cf4116b1f10d9981403/67000c96/aj1FhYyDHrJilfbT_On5b0mwQRCKEnrCOBbubmauPCj_r4bYT8vjrcitbM5tdfGWf7qyUX24hEVTClIBGgxdmQ%3D%3D?uid=0&filename=Башкирская%20элегия.webp&disposition=attachment&hash=hgeizbJkla0c247WuYj1fI6r5%2BGIV%2BXA6gADMO1qpCnfH9c%2Bpn3iXP44mQ6atVLoq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=image%2Fwebp&owner_uid=1905780339&fsize=7848&hid=ff7f97809b54a1178180a25ba05ab785&media_type=image&tknv=v2"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=1898710029/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
+
     - name:     "Моя любимая погода"
       tags:     ["светлая", "напряженная", "вычурная", "чувственная"]
       buy:      https://musicat.store/authors/limensid
