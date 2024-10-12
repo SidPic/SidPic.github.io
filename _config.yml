@@ -20,6 +20,10 @@ socials:
       url:      "https://www.youtube.com/@sidpiclu"
       icon:     "/icons/yt.png"
 
+    - name:     "Boosty"
+      url:      "https://boosty.to/musicfor"
+      icon:     "/icons/boosty.png"
+
 #~ streamings:
     #~ - name:
       #~ url:
