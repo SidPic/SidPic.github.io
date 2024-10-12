@@ -32,11 +32,18 @@ socials:
 #   интимная мечтательная чувственная пафосная
 
 music:
+    - name:     "Данко II"
+      tags:     ["депрессивная", "напряженная", "сказочная"]
+      buy:      "https://musicat.store/authors/limensid"
+      url:      "https://download.sberdisk.ru/download/file/530837765?token=TmawkUzpkD9DZ5H&filename=Данко%20II.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/530837277?token=1knwuSgBWFWtrKm&filename=Данко%20II.webp"
+      player:   "https://bandcamp.com/EmbeddedPlayer/track=1675131278/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
+
     - name:     "Башкирская элегия"
       tags:     ["печальная", "светлая", "умеренная", "простая", "мечтательная"]
       buy:      "https://musicat.store/authors/limensid"
-      url:      "https://downloader.disk.yandex.ru/disk/e40cf83906c09c5b2468d4d6c1a05041e4025244a3e7619300adb1475f543067/67000c3e/aj1FhYyDHrJilfbT_On5b1jparoX97YknRktxlytsUhxA-galwx8YEJ624U0sLy_rNZMRiuVW3986mNQlP6m-Q%3D%3D?uid=0&filename=Башкирская%20элегия.mp3&disposition=attachment&hash=YkUCfb35l%2Bmw3tIv%2Blf8Ys%2B7plJd1dUBRnmYmWs1ppxHtKuzvKFa/oFTCLQdDt1Uq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=audio%2Fmpeg&owner_uid=1905780339&fsize=4037828&hid=06768822ac685308ea8afc25a385f8e4&media_type=audio&tknv=v2"
-      cover:    "https://downloader.disk.yandex.ru/disk/89e640f5704bed04d124fd53136ebc72ee7932625b068cf4116b1f10d9981403/67000c96/aj1FhYyDHrJilfbT_On5b0mwQRCKEnrCOBbubmauPCj_r4bYT8vjrcitbM5tdfGWf7qyUX24hEVTClIBGgxdmQ%3D%3D?uid=0&filename=Башкирская%20элегия.webp&disposition=attachment&hash=hgeizbJkla0c247WuYj1fI6r5%2BGIV%2BXA6gADMO1qpCnfH9c%2Bpn3iXP44mQ6atVLoq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=image%2Fwebp&owner_uid=1905780339&fsize=7848&hid=ff7f97809b54a1178180a25ba05ab785&media_type=image&tknv=v2"
+      url:      "https://download.sberdisk.ru/download/file/530837769?token=QbVFT1tNk5KV10X&filename=Башкирская%20элегия.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/530837279?token=GbeaSO6W9Rl9FZs&filename=Башкирская%20элегия.webp"
       player:   "https://bandcamp.com/EmbeddedPlayer/track=1898710029/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:     "Моя любимая погода"
@@ -49,14 +56,14 @@ music:
     - name:     "Танец"
       tags:     ["легкая", "светлая", "простая", "мечтательная"]
       buy:      https://musicat.store/authors/limensid
-      url:      "https://downloader.disk.yandex.ru/disk/1e035b9e9201d8849010791dc901a3e2652fa8fa46fd9a35a26666c850f4c106/66eb090a/aj1FhYyDHrJilfbT_On5b-nLfBmvq3rAIZJq_cXoXB8KsM8K9wFVY5tgWt6wxMQ7g-88tq2UFjdJBVHDzbswjA%3D%3D?uid=0&filename=Танец.mp3&disposition=attachment&hash=EhYVO8n7Ab7KoaY2Z2kdRndpoh0bXNzlr4qkl3mYBdxPVIVrayEqalahqlRySe4dq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=audio%2Fmpeg&owner_uid=1905780339&fsize=2500621&hid=2367aae5b7c64b3ef0001a1877f1490d&media_type=audio&tknv=v2"
-      cover:    "https://downloader.disk.yandex.ru/disk/cd7213185e292bc5ef07af51dea4316e909e5850232b26278611d1fa8cd80ee0/66eb092b/aj1FhYyDHrJilfbT_On5b8CS9f16Y94YecH2fvlIanMVBJX1j3dZSQPAXynoT5jd477lzzqooF3bubNcwK0zZg%3D%3D?uid=0&filename=Танец.webp&disposition=attachment&hash=igJ1XHwcW5Y3AhhIwXe3MVtfiCn%2BPO6oAMlp5pRqivzdU/QGSIk7h4PaBQD2MgcJq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=image%2Fwebp&owner_uid=1905780339&fsize=9424&hid=e91f10ee588e6d88d96a8f7edf69f491&media_type=image&tknv=v2"
+      url:      "https://download.sberdisk.ru/download/file/530837766?token=rWCTJh9Y6vgZYQe&filename=Танец.mp3"
+      cover:    "https://download.sberdisk.ru/download/file/523183954?token=M4bwPwscqz2oxD8&filename=Танец.webp"
       player:   "https://bandcamp.com/EmbeddedPlayer/track=3272085086/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:     "Данко I"
       tags:     ["жизнерадостная", "напряженная", "легкая", "агрессивная", "сказочная"]
       buy:      https://musicat.store/authors/limensid
-      url:      "https://downloader.disk.yandex.ru/disk/f38dbc82d15f4f253536f6176da1376bf5905b95f5d8a03bac4a325d5c49505b/66eb08aa/aj1FhYyDHrJilfbT_On5b-FIuvot2_y8fGFSHovtViycolzoppBAe04NU5dAT6lcWtTSvPYdbJDUeufBKpDzHw%3D%3D?uid=0&filename=Данко%20I.mp3&disposition=attachment&hash=BWwizdZbCy9jFVJlMeXUKDayD07j8XstuFbWGgPw4kC6IRYXDUhDYF4PIQ%2BwgjRTq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=audio%2Fmpeg&owner_uid=1905780339&fsize=3161062&hid=efff24aae0aa1ee21b2f10a03b97272f&media_type=audio&tknv=v2"
+      url:      "https://download.sberdisk.ru/download/file/519824472?token=QQklkbD79BnXqGG&filename=Данко%20I%20(2).mp3"
       cover:    "https://download.sberdisk.ru/download/file/519823693?token=8rIuJ4YD5HBZiJ5&filename=Данко%20I.webp"
       player:   "https://bandcamp.com/EmbeddedPlayer/track=2150997095/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true"
 
