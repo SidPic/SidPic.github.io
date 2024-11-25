@@ -36,6 +36,27 @@ socials:
 #   интимная мечтательная чувственная пафосная
 
 music:
+    - name:		"final"
+      tags:		["жизнерадостная", "напряженная", "вычурная", "пафосная"]
+      buy:		"https://musicat.store/authors/limensid"
+      url:		"https://download.sberdisk.ru/download/file/549063327?token=ep9PtdiSciNALQD&filename=final.mp3"
+      cover:	"https://download.sberdisk.ru/download/file/549062740?token=PCOAVRSemNZPnsS&filename=final.webp"
+      player:	"https://bandcamp.com/EmbeddedPlayer/track=2597820167/size=large/bgcol=1d1f20/linkcol=ffffff/minimal=true/transparent=true/"
+
+    - name:		"Этюд"
+      tags:		["светлая", "умеренная", "сказочная", "чувственная"]
+      buy:		"https://musicat.store/authors/limensid"
+      url:		"https://download.sberdisk.ru/download/file/549063212?token=tRPbugEmM7A1FUW&filename=%D0%AD%D1%82%D1%8E%D0%B4.mp3"
+      cover:	"https://download.sberdisk.ru/download/file/549062742?token=RDvRnaAl7YpYTin&filename=%D0%AD%D1%82%D1%8E%D0%B4.webp"
+      player:	"https://bandcamp.com/EmbeddedPlayer/track=853267531/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
+
+    - name:		"не пять"
+      tags:		["светлая", "легкая", "простая", "мечтательная"]
+      buy:		"https://musicat.store/authors/limensid"
+      url:		"https://download.sberdisk.ru/download/file/549063409?token=BE7JOsiLB2HDQC7&filename=%D0%BD%D0%B5_%D0%BF%D1%8F%D1%82%D1%8C.mp3"
+      cover:	"https://download.sberdisk.ru/download/file/549062741?token=gesKcJkufmMm1Oz&filename=%D0%BD%D0%B5%20%D0%BF%D1%8F%D1%82%D1%8C.webp"
+      player:	"https://bandcamp.com/EmbeddedPlayer/track=302218204/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
+
     - name:     "Данко II"
       tags:     ["депрессивная", "напряженная", "сказочная"]
       buy:      "https://musicat.store/authors/limensid"
