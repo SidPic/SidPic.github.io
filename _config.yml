@@ -41,7 +41,7 @@ music:
       buy:		"https://musicat.store/authors/limensid"
       url:		"https://download.sberdisk.ru/download/file/549063327?token=ep9PtdiSciNALQD&filename=final.mp3"
       cover:	"https://download.sberdisk.ru/download/file/549062740?token=PCOAVRSemNZPnsS&filename=final.webp"
-      player:	"https://bandcamp.com/EmbeddedPlayer/track=2597820167/size=large/bgcol=1d1f20/linkcol=ffffff/minimal=true/transparent=true/"
+      player:	"https://bandcamp.com/EmbeddedPlayer/track=2597820167/size=large/bgcol=ffffff/linkcol=ffffff/minimal=true/transparent=true/"
 
     - name:		"Этюд"
       tags:		["светлая", "умеренная", "сказочная", "чувственная"]
