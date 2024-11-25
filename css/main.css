@@ -100,6 +100,13 @@ a:active  {color:black; text-decoration:underline;}
     padding-right: 5em;
 }
 
+.content p img {
+	display: block;
+	max-width: 98%;
+	height: auto;
+	margin: auto;
+}
+
 li {
     padding: 0;
 }
